@@ -6,5 +6,12 @@
 (defsystem :arle-utility
     :description "utility"
     :author "arlechann"
-    :depends-on ()
-    :components ((:file arle-utility)))
+    :depends-on (:cl-ppcre)
+    :components ((:file "package")
+                 (:file "general" :depends-on ("package"))
+                 (:file "string" :depends-on ("package"))
+                 (:file "file" :depends-on ("package"))
+                 )
+    :in-order-to ((test-op (test-op arle-utility-test))))
+
+;;; vim: set ft=lisp lisp:
