@@ -4,7 +4,6 @@
 (in-package :arle-utility-asd)
 
 (defsystem :arle-utility
-    :class :package-inferred-system
     :description "utility"
     :author "arlechann"
     :depends-on ()

@@ -1,7 +1,7 @@
 (in-package :cl-user)
 (defpackage :arle-utility
     (:use cl)
-    (:export :openi :openo :opena)
+    (:export :openi :openo :opena))
 (in-package :arle-utility)
 
 ;; file
