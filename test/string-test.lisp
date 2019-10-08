@@ -1,5 +1,16 @@
 (in-package :arle-utility-test)
 
+(is (arle-utility:chomp "abc
+")
+    "abc")
+(is (arle-utility:chomp "cde")
+    "cde")
+(is (arle-utility:chomp "
+fgh
+")
+    "
+fgh")
+
 (is-values
     (arle-utility:parse-request-line "GET / HTTP/1.1")
     '("GET" "/" "HTTP/1.1"))
