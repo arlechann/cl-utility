@@ -1,5 +1,8 @@
 (in-package :arle-utility)
 
+(defun chomp (str)
+    (string-right-trim '(#\Return #\Linefeed) str))
+
 (defun parse-request-line (request-line)
     (ppcre:register-groups-bind (method uri version)
         ("^([^ ]+) ([^ ]+) ([^ ]+)$" request-line)
