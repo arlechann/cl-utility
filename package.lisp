@@ -8,6 +8,7 @@
         :default-value
 
         ;; string
+        :chomp
         :parse-request-line
         :extract-uri
         :parse-uri
@@ -16,4 +17,20 @@
         :openi
         :openo
         :opena
+
+        ;; delay
+        :delay
+        :force
+        :stream-cons
+        :stream-car
+        :stream-cdr
+        :stream-take
+        :stream-take-while
+        :const-stream
+        :stream-iota
+        :stream-nth
+        :stream-map
+        :stream-filter
+        :prime-stream
         ))
+

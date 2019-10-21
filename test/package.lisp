@@ -2,5 +2,5 @@
 (defpackage :arle-utility-test
     (:use :cl
           :prove
+          :arle-utility
           ))
-(in-package :arle-utility-test)
