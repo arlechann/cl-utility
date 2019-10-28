@@ -1,3 +1,3 @@
-(in-package :arle-utility-test)
+(in-package :arle-utility/test)
 
 (finalize)
