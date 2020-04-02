@@ -10,6 +10,9 @@
     :self
     :default-value
 
+    ;; list
+    :alist-keys
+
     ;; string
     :chomp
     :parse-request-line

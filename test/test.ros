@@ -14,5 +14,5 @@ exec ros -Q -- $0 "$@"
 
 (defun main (&rest argv)
   (declare (ignorable argv))
-  (prove:run :arle-utility/test))
+  (prove:run :arle-utility-test))
 ;;; vim: set ft=lisp lisp:

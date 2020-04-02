@@ -9,6 +9,7 @@
            :depends-on (:cl-ppcre)
            :components ((:file "package")
                         (:file "general" :depends-on ("package"))
+                        (:file "list" :depends-on ("package"))
                         (:file "string" :depends-on ("package"))
                         (:file "file" :depends-on ("package"))
                         (:file "delay" :depends-on ("package"))

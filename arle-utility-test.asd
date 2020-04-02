@@ -9,6 +9,7 @@
            :defsystem-depends-on (:prove-asdf)
            :components ((:file "test/package")
                         (:test-file "test/general-test" :depends-on ("test/package"))
+                        (:test-file "test/list-test" :depends-on ("test/package"))
                         (:test-file "test/string-test" :depends-on ("test/package"))
                         (:test-file "test/file-test" :depends-on ("test/package"))
                         (:test-file "test/delay-test" :depends-on ("test/package"))
