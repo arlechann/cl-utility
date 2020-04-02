@@ -12,6 +12,7 @@
 
     ;; list
     :alist-keys
+    :alist-values
 
     ;; string
     :chomp
